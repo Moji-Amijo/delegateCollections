@@ -53,7 +53,7 @@ class Yatake {
         myBlock2 = makerA.makeWoodBlock(shape: .sankaku)
         
         // 四角の積み木を作成。塗装技術者の称号はないが、自力で塗装する
-        myBlock2 = makerB.makeWoodBlock(
+        myBlock3 = makerB.makeWoodBlock(
             shape: .shikaku, 
             delegatePaintFunc: paintSelfStyle   // 我流で塗る関数を渡す
         )
